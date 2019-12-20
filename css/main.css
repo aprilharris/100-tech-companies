@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:400,600&display=swap');
+
+html,
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #f7ce3e;
+  color: 
+  font-family: '';
+}
+
+header > h1 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1rem;
+}
