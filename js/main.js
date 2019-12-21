@@ -180,8 +180,7 @@ var tableData = [
     street: '34th St - Penn Station',
     boro: 'Manhattan',
     zip: 10001,
-    apply:
-      'https://boards.greenhouse.io/whiteops?__hssc=116186969.4.1502987535734&__hstc=116186969.86cd53f7847c7db83dddfa8c121f07ce.1502937449661.1502975950036.1502987535734.4&__hsfp=1340851825&hsCtaTracking=35a6b651-382d-483e-a271-820da0a0f33c%7Cd26d70b4-ddd3-4b42-a3fb-2300785ead44#.WZXIcHeGNTZ'
+    apply: 'https://www.whiteops.com/jobs'
   },
 
   {
