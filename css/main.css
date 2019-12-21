@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point:300,400,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
 @import url('https://fonts.googleapis.com/css?family=Kanit:400,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap');
 
 html,
 body {
@@ -8,16 +14,44 @@ body {
 }
 
 header {
+  display: flex;
   margin: 0;
   padding: 0;
-  background-color: #f7ce3e;
-  color: 
-  font-family: '';
+  background-color: #0a1612;
+  padding-right: 20px;
+  border-bottom: 10px solid #f7ce3e;
 }
 
 header > h1 {
-  font-family: 'Kanit', sans-serif;
-  font-weight: 600;
-  font-size: 2rem;
-  padding: 1rem;
+  font-family: 'Avenir Black', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 30px;
+  color: #ffffff;
+}
+
+header > p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.tabulator {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* table headers */
+.tabulator .tabulator-header {
+  font-size: 1.3rem;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px solid #1a2930;
+  background-color: #0a1612;
+  color: #1a2930;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
 }

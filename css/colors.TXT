@@ -1,0 +1,6 @@
+/* HEX */
+screen-gray: #ddf8e8;
+not-black: #0a1612;
+denim-blue: #1a2930;
+marigold-yellow: #f7ce3e;
+basic-white: #ffffff;
