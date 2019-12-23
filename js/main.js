@@ -282,16 +282,6 @@ var tableData = [
     rank: 29,
     company: 'Celonis',
     industry: 'SaaS',
-    street: '114 West 41st St',
-    boro: 'Manhattan',
-    zip: 10036,
-    apply: 'https://celonis.com/careers/jobs'
-  },
-
-  {
-    rank: 30,
-    company: 'Celonis',
-    industry: 'SaaS',
     street: '114 W 41st St, 16th Fl',
     boro: 'Manhattan',
     zip: 10036,
@@ -299,7 +289,7 @@ var tableData = [
   },
 
   {
-    rank: 31,
+    rank: 30,
     company: 'Teachers Pay Teachers',
     industry: 'EdTech',
     street: '111 E 18th St',
@@ -309,7 +299,7 @@ var tableData = [
   },
 
   {
-    rank: 32,
+    rank: 31,
     company: 'Greenhouse Software',
     industry: 'HR Tech',
     street: '18 West 18th Street',
@@ -319,7 +309,7 @@ var tableData = [
   },
 
   {
-    rank: 33,
+    rank: 32,
     company: 'CB Insights',
     industry: 'Big Data',
     street: '498 7th Avenue, 17th Floor',
@@ -329,7 +319,7 @@ var tableData = [
   },
 
   {
-    rank: 34,
+    rank: 33,
     company: 'Away',
     industry: 'eCommerce (Travel)',
     street: '503 Broadway, 3rd Fl',
@@ -339,7 +329,7 @@ var tableData = [
   },
 
   {
-    rank: 35,
+    rank: 34,
     company: 'Common',
     industry: 'Real Estate',
     street: '335 Madison Avenue, Ste 6A',
@@ -349,7 +339,7 @@ var tableData = [
   },
 
   {
-    rank: 36,
+    rank: 35,
     company: 'Oscar',
     industry: 'Health & Wellness',
     street: 'One Hudson Square',
@@ -359,7 +349,7 @@ var tableData = [
   },
 
   {
-    rank: 37,
+    rank: 36,
     company: 'Newsela',
     industry: 'Education',
     street: '620 8th Ave 21st Fl',
@@ -369,7 +359,7 @@ var tableData = [
   },
 
   {
-    rank: 38,
+    rank: 37,
     company: 'Beeswax',
     industry: 'Marketing',
     street: ' 275 7th Ave 21st Fl',
@@ -379,7 +369,7 @@ var tableData = [
   },
 
   {
-    rank: 39,
+    rank: 38,
     company: 'Ribbon',
     industry: 'Real Estate',
     street: '29 E 19th St',
@@ -389,7 +379,7 @@ var tableData = [
   },
 
   {
-    rank: 40,
+    rank: 39,
     company: 'Pond5',
     industry: 'Digital Media',
     street: '251 Park Ave South, 7th Fl',
@@ -399,7 +389,7 @@ var tableData = [
   },
 
   {
-    rank: 41,
+    rank: 40,
     company: 'Dashlane',
     industry: 'SaaS (Automation)',
     street: '44 W 18th St',
@@ -409,7 +399,7 @@ var tableData = [
   },
 
   {
-    rank: 42,
+    rank: 41,
     company: 'Resident',
     industry: 'eCommerce (consumer goods)',
     street: '35 E 21st Street',
@@ -419,7 +409,7 @@ var tableData = [
   },
 
   {
-    rank: 43,
+    rank: 42,
     company: 'RTB House',
     industry: 'Machine Learning',
     street: '135 Madison Ave, 5th Floor',
@@ -429,7 +419,7 @@ var tableData = [
   },
 
   {
-    rank: 44,
+    rank: 43,
     company: 'Bloomberg',
     industry: 'SaaS (FinTech)',
     street: '731 Lexington Avenue',
@@ -439,7 +429,7 @@ var tableData = [
   },
 
   {
-    rank: 45,
+    rank: 44,
     company: 'Rokt',
     industry: 'Marketing',
     street: '50 W 23rd St 12th Floor',
@@ -449,7 +439,7 @@ var tableData = [
   },
 
   {
-    rank: 46,
+    rank: 45,
     company: 'Yext',
     industry: 'Marketing',
     street: '1 Madison Avenue, 5th Floor',
@@ -459,7 +449,7 @@ var tableData = [
   },
 
   {
-    rank: 47,
+    rank: 46,
     company: 'Stash',
     industry: 'FinTech',
     street: '500 7th Ave 18th Floor',
@@ -469,7 +459,7 @@ var tableData = [
   },
 
   {
-    rank: 48,
+    rank: 47,
     company: 'Riskfield',
     industry: 'FinTech',
     street: '220 5th Ave #13th Floor',
@@ -479,7 +469,7 @@ var tableData = [
   },
 
   {
-    rank: 49,
+    rank: 48,
     company: 'Domio',
     industry: 'Real Estate',
     street: '91 5th Ave',
@@ -489,7 +479,7 @@ var tableData = [
   },
 
   {
-    rank: 50,
+    rank: 49,
     company: 'Rent The Runway',
     industry: 'eCommerce',
     street: '345 Hudson Street',
@@ -499,7 +489,7 @@ var tableData = [
   },
 
   {
-    rank: 51,
+    rank: 50,
     company: 'UnaCast',
     industry: 'Big Data',
     street: '245 5th Ave',
@@ -509,7 +499,7 @@ var tableData = [
   },
 
   {
-    rank: 52,
+    rank: 51,
     company: 'YotPo',
     industry: 'eCommerce',
     street: '33 West 19th Street',
@@ -519,7 +509,7 @@ var tableData = [
   },
 
   {
-    rank: 53,
+    rank: 52,
     company: 'Knotch',
     industry: 'Big Data',
     street: '52 Walker St',
@@ -529,7 +519,7 @@ var tableData = [
   },
 
   {
-    rank: 54,
+    rank: 53,
     company: 'PaperSpace',
     industry: 'Artificial Intelligence',
     street: '201 Moore St',
@@ -539,7 +529,7 @@ var tableData = [
   },
 
   {
-    rank: 55,
+    rank: 54,
     company: 'Policy Genius',
     industry: 'Insurance',
     street: '50 W 23rd St 9th fl',
@@ -549,7 +539,7 @@ var tableData = [
   },
 
   {
-    rank: 56,
+    rank: 55,
     company: 'Neverware',
     industry: 'SaaS',
     street: '112 West 27th St., Suite 200',
@@ -559,7 +549,7 @@ var tableData = [
   },
 
   {
-    rank: 57,
+    rank: 56,
     company: 'Noom',
     industry: 'Health & Wellness',
     street: '229 W 28th St 9th floor',
@@ -570,7 +560,7 @@ var tableData = [
   },
 
   {
-    rank: 58,
+    rank: 57,
     company: 'Knotel',
     industry: 'Real Estate',
     street: '655 Madison Ave #12',
@@ -580,7 +570,7 @@ var tableData = [
   },
 
   {
-    rank: 59,
+    rank: 58,
     company: 'Blink Health',
     industry: 'Health & Wellness',
     street: '233 Spring St, 8th Floor East',
@@ -590,7 +580,7 @@ var tableData = [
   },
 
   {
-    rank: 60,
+    rank: 59,
     company: 'Metric Digital',
     industry: 'Marketing',
     street: '394 Broadway Fl 5',
@@ -600,7 +590,7 @@ var tableData = [
   },
 
   {
-    rank: 61,
+    rank: 60,
     company: 'Deloitte Digital',
     industry: 'UX Consulting',
     street: '330 Hudson St',
@@ -610,7 +600,7 @@ var tableData = [
   },
 
   {
-    rank: 62,
+    rank: 61,
     company: 'AirCall',
     industry: 'VoiP',
     street: '233 Park Ave S',
@@ -620,7 +610,7 @@ var tableData = [
   },
 
   {
-    rank: 63,
+    rank: 62,
     company: 'T-Rex',
     industry: 'Co-Working Space',
     street: '214 W 29th St',
@@ -630,7 +620,7 @@ var tableData = [
   },
 
   {
-    rank: 64,
+    rank: 63,
     company: 'Collibra',
     industry: 'HR Tech',
     street: '61 Broadway, 31st Floor',
@@ -640,7 +630,7 @@ var tableData = [
   },
 
   {
-    rank: 65,
+    rank: 64,
     company: 'Ellevest',
     industry: 'Investing',
     street: '48 W 25th St 6th floor',
@@ -650,7 +640,7 @@ var tableData = [
   },
 
   {
-    rank: 66,
+    rank: 65,
     company: 'Fundera',
     industry: 'FinTech',
     street: '123 William St',
@@ -660,7 +650,7 @@ var tableData = [
   },
 
   {
-    rank: 67,
+    rank: 66,
     company: 'Meetup',
     industry: 'Social Networking',
     street: '632 Broadway #10',
@@ -670,7 +660,7 @@ var tableData = [
   },
 
   {
-    rank: 68,
+    rank: 67,
     company: 'Better Mortgage Corp',
     industry: 'FinTech',
     street: '250 Greenwich St Fl. 36',
@@ -680,7 +670,7 @@ var tableData = [
   },
 
   {
-    rank: 69,
+    rank: 68,
     company: 'Movable Ink',
     industry: 'Marketing',
     street: '5 Bryant Park, 9th Floor',
@@ -690,7 +680,7 @@ var tableData = [
   },
 
   {
-    rank: 70,
+    rank: 69,
     company: 'JustWorks',
     industry: 'HR Tech',
     street: '601 W 26th St',
@@ -700,7 +690,7 @@ var tableData = [
   },
 
   {
-    rank: 71,
+    rank: 70,
     company: 'The Trade Desk',
     industry: 'Marketing',
     street: '2 Park Ave 5th Floor',
@@ -710,7 +700,7 @@ var tableData = [
   },
 
   {
-    rank: 72,
+    rank: 71,
     company: 'Namely',
     industry: 'HR Tech',
     street: '195 Broadway',
@@ -720,7 +710,7 @@ var tableData = [
   },
 
   {
-    rank: 73,
+    rank: 72,
     company: 'WeWork Technology',
     industry: 'Cloud, VOIP',
     street: '115 W 18th St',
@@ -730,7 +720,7 @@ var tableData = [
   },
 
   {
-    rank: 74,
+    rank: 73,
     company: 'Lifion By ADP',
     industry: 'HR Tech',
     street: '2 Park Ave, 5th Floor',
@@ -740,7 +730,7 @@ var tableData = [
   },
 
   {
-    rank: 75,
+    rank: 74,
     company: "Harry's",
     industry: 'Retail',
     street: '75 Varick Street',
@@ -750,7 +740,7 @@ var tableData = [
   },
 
   {
-    rank: 76,
+    rank: 75,
     company: 'Integral Ad Science',
     industry: 'SaaS (Digital Verification)',
     street: '95 Morton St',
@@ -760,7 +750,7 @@ var tableData = [
   },
 
   {
-    rank: 77,
+    rank: 76,
     company: 'Peloton',
     industry: 'Health & Wellness',
     street: '125 W 25th St',
@@ -770,7 +760,7 @@ var tableData = [
   },
 
   {
-    rank: 78,
+    rank: 77,
     company: 'SquareSpace',
     industry: 'SaaS (DIY Websites)',
     street: '225 Varick Street',
@@ -780,7 +770,7 @@ var tableData = [
   },
 
   {
-    rank: 79,
+    rank: 78,
     company: 'CB4',
     industry: 'SaaS (POS)',
     street: '311 W43rd St',
@@ -790,7 +780,7 @@ var tableData = [
   },
 
   {
-    rank: 80,
+    rank: 79,
     company: 'AniMoto',
     industry: 'SaaS (Video Editing)',
     street: '436 Lafayette St',
@@ -800,7 +790,7 @@ var tableData = [
   },
 
   {
-    rank: 81,
+    rank: 80,
     company: 'GrubHub',
     industry: 'Food Delivery',
     street: '1065 6th Ave',
@@ -810,7 +800,7 @@ var tableData = [
   },
 
   {
-    rank: 82,
+    rank: 81,
     company: 'Button',
     industry: 'eCommerce',
     street: '88 Pine St',
@@ -820,7 +810,7 @@ var tableData = [
   },
 
   {
-    rank: 83,
+    rank: 82,
     company: 'SoCure',
     industry: 'FinTech',
     street: '330 7th Ave, Suite 201',
@@ -830,7 +820,7 @@ var tableData = [
   },
 
   {
-    rank: 84,
+    rank: 83,
     company: 'Conductor',
     industry: 'Marketing',
     street: '2 Park Ave, 15th Fl',
@@ -840,7 +830,7 @@ var tableData = [
   },
 
   {
-    rank: 85,
+    rank: 84,
     company: 'Shapeways',
     industry: '3D Printing',
     street: '44 W 28th St',
@@ -850,7 +840,7 @@ var tableData = [
   },
 
   {
-    rank: 86,
+    rank: 85,
     company: 'Latch',
     industry: 'IoT (Home Security)',
     street: '450 West 33rd Street',
@@ -860,7 +850,7 @@ var tableData = [
   },
 
   {
-    rank: 87,
+    rank: 86,
     company: 'OnDeck',
     industry: 'FinTech',
     street: '1400 Broadway (42nd Street Bryant Park)',
@@ -870,7 +860,7 @@ var tableData = [
   },
 
   {
-    rank: 88,
+    rank: 87,
     company: 'TransFix',
     industry: 'Logistics',
     street: '498 7th Ave',
@@ -880,7 +870,7 @@ var tableData = [
   },
 
   {
-    rank: 89,
+    rank: 88,
     company: 'CreatorIQ',
     industry: 'Cloud',
     street: '1400 Broadway',
@@ -890,7 +880,7 @@ var tableData = [
   },
 
   {
-    rank: 90,
+    rank: 89,
     company: 'Healthify',
     industry: 'Health & Wellness',
     street: '498 7th Avenue',
@@ -900,7 +890,7 @@ var tableData = [
   },
 
   {
-    rank: 91,
+    rank: 90,
     company: 'Native',
     industry: 'Big Data (Consumer Research)',
     street: '524 Broadway',
@@ -910,7 +900,7 @@ var tableData = [
   },
 
   {
-    rank: 92,
+    rank: 91,
     company: 'WarnerMedia',
     industry: 'Media',
     street: '40 Hudson Yards',
@@ -920,7 +910,7 @@ var tableData = [
   },
 
   {
-    rank: 93,
+    rank: 92,
     company: 'Myridad360',
     industry: 'SaaS',
     street: '199 Water Street',
@@ -930,7 +920,7 @@ var tableData = [
   },
 
   {
-    rank: 94,
+    rank: 93,
     company: 'Spotify',
     industry: 'Streaming',
     street: '40 Hudson Yards',
@@ -940,7 +930,7 @@ var tableData = [
   },
 
   {
-    rank: 95,
+    rank: 94,
     company: 'Perch',
     industry: 'Real Estate',
     street: '31 West 27th St',
@@ -950,7 +940,7 @@ var tableData = [
   },
 
   {
-    rank: 96,
+    rank: 95,
     company: 'WW: Weight Watchers',
     industry: 'Health & Wellness',
     street: '675 6th Ave',
@@ -960,7 +950,7 @@ var tableData = [
   },
 
   {
-    rank: 97,
+    rank: 96,
     company: 'Hinge',
     industry: 'Social Networking',
     street: '508 LaGuardia Pl',
@@ -970,7 +960,7 @@ var tableData = [
   },
 
   {
-    rank: 98,
+    rank: 97,
     company: 'Care/Of',
     industry: 'Health & Wellness',
     street: '75 Varick St',
@@ -980,7 +970,7 @@ var tableData = [
   },
 
   {
-    rank: 99,
+    rank: 98,
     company: 'Paxful',
     industry: 'Blockchain/Cryptocurrency',
     street: '609 Greenwich St',
@@ -990,7 +980,7 @@ var tableData = [
   },
 
   {
-    rank: 100,
+    rank: 99,
     company: 'NewsCred',
     industry: 'Marketing',
     street: '386 Park Ave S. 6th Fl',
@@ -1000,7 +990,7 @@ var tableData = [
   },
 
   {
-    rank: 101,
+    rank: 100,
     company: 'Anvyl',
     industry: 'Logistics',
     street: '335 Madison Ave',
@@ -1010,7 +1000,7 @@ var tableData = [
   },
 
   {
-    rank: 102,
+    rank: 101,
     company: 'Grailed',
     industry: 'eCommerce',
     street: '131 Spring Street',
@@ -1020,7 +1010,7 @@ var tableData = [
   },
 
   {
-    rank: 103,
+    rank: 102,
     company: 'LeafLink',
     industry: 'Cannabis',
     street: '80 Broad St',
@@ -1030,7 +1020,7 @@ var tableData = [
   },
 
   {
-    rank: 104,
+    rank: 103,
     company: 'StrideConsulting',
     industry: 'Digital Media',
     street: '127 W 26th St',
@@ -1040,7 +1030,7 @@ var tableData = [
   },
 
   {
-    rank: 105,
+    rank: 104,
     company: 'Seven Rooms',
     industry: 'SaaS (Hospitality)',
     street: '122 W 27th St',
@@ -1050,7 +1040,7 @@ var tableData = [
   },
 
   {
-    rank: 106,
+    rank: 105,
     company: 'Citadel',
     industry: 'FinTech',
     street: '601 Lexington Avenue',
@@ -1060,7 +1050,7 @@ var tableData = [
   },
 
   {
-    rank: 107,
+    rank: 106,
     company: 'Workstride',
     industry: 'SaaS',
     street: '350 5th Avenue Suite 3920',
@@ -1070,7 +1060,7 @@ var tableData = [
   },
 
   {
-    rank: 108,
+    rank: 107,
     company: 'ThoughtBot',
     industry: 'Web Development',
     street: '1384 Broadway',
@@ -1080,7 +1070,7 @@ var tableData = [
   },
 
   {
-    rank: 109,
+    rank: 108,
     company: 'Compass',
     industry: 'Real Estate',
     street: '90 Fifth Avenue, 3rd Floor',
@@ -1090,7 +1080,7 @@ var tableData = [
   },
 
   {
-    rank: 110,
+    rank: 109,
     company: 'CaseBook PBC',
     industry: 'Machine Learning',
     street: '104 W 27th St',
