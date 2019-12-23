@@ -1,6 +1,21 @@
 /* HEX */
-screen-gray: #ddf8e8;
+
+/*BLACKS*/
 not-black: #0a1612;
-denim-blue: #1a2930;
-marigold-yellow: #f7ce3e;
-basic-white: #ffffff;
+
+/*GRAYS*/
+granite-gray: #605f5e;
+gunmetal: #2a2d34;
+screen-gray: #ddf8e8;
+
+/*BLUES*/
+    denim-blue: #1a2930;
+    prussian-blue: #062f4f;
+
+/*YELLOW & ORANGE */
+    marigold-yellow: #f7ce3e;
+    mango: #ff9f1c;
+
+/*WHITE*/
+    basic-white: #ffffff;
+    gainsboro-white: #dce0d9

@@ -28,7 +28,7 @@
   box-sizing: border-box;
   width: 100%;
   border-bottom: 1px solid #999;
-  background-color: #e6e6e6;
+  /* background-color: #e6e6e6; */
   color: #555;
   font-weight: bold;
   white-space: nowrap;
@@ -40,7 +40,7 @@
 }
 
 .tabulator .tabulator-header.tabulator-header-hidden {
-  display: none;
+  display: flex;
 }
 
 .tabulator .tabulator-header .tabulator-col {
