@@ -20,6 +20,7 @@ small {
 
 .flex-item {
   /* height: 200px; */
+  align-items: baseline;
   font-family: Roboto, sans-serif;
   font-weight: 300;
   color: #e6e6e6;
@@ -30,7 +31,6 @@ div.flex-item ~ p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   font-weight: 100;
-  padding-top: 30px;
   color: white;
   line-height: 1.4;
 }
@@ -47,8 +47,8 @@ a:hover {
 
 header {
   display: flex;
-  justify-content: space-around;
-  align-items: stretch;
+  justify-content: stretch;
+  align-items: baseline;
   margin: 0;
   padding: 0;
   background-color: #0a1612;
