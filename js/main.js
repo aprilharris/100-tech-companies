@@ -21,6 +21,26 @@ var tableData = [
 
   {
     rank: 3,
+    company: 'QuartetHealth',
+    industry: 'Health & Wellness',
+    street: '119 West 40th Street 5th Floor',
+    boro: 'Manhattan',
+    zip: 10018,
+    apply: 'http://www.quartethealth.com/about/'
+  },
+
+  {
+    rank: 4,
+    company: 'HavenLife',
+    industry: 'Insurance',
+    street: '60 Madison Ave',
+    boro: 'Manhattan',
+    zip: 10010,
+    apply: 'http://www.havenlife.com/careers'
+  },
+
+  {
+    rank: 5,
     company: 'Intent',
     industry: 'Big Data',
     street: '75 Varick Street, 8th Floor',
@@ -30,7 +50,7 @@ var tableData = [
   },
 
   {
-    rank: 4,
+    rank: 6,
     company: 'Reonomy',
     industry: 'Real Estate',
     street: '767 3rd Ave, 39th Floor',
@@ -40,7 +60,7 @@ var tableData = [
   },
 
   {
-    rank: 5,
+    rank: 7,
     company: 'adMarketplace',
     industry: 'AdTech',
     street: '1385 Broadway, 19th Floor',
@@ -50,17 +70,7 @@ var tableData = [
   },
 
   {
-    rank: 6,
-    company: 'Teachable',
-    industry: 'EdTech',
-    street: '16 W 22nd St',
-    boro: 'Manhattan',
-    zip: 10010,
-    apply: 'https://teachable.com/careers'
-  },
-
-  {
-    rank: 7,
+    rank: 8,
     company: 'YieldStreet',
     industry: 'FinTech',
     street: '300 Park Ave, 15th Floor',
@@ -70,7 +80,7 @@ var tableData = [
   },
 
   {
-    rank: 8,
+    rank: 9,
     company: 'EquiLend',
     industry: 'FinTech',
     street: '225 Liberty St',
@@ -80,166 +90,7 @@ var tableData = [
   },
 
   {
-    rank: 9,
-    company: 'Asana',
-    industry: 'SaaS',
-    street: '3 World Trade Center',
-    boro: 'Manhattan',
-    zip: 10007,
-    apply: 'https://asana.com/jobs/all'
-  },
-
-  {
     rank: 10,
-    company: 'Unqork',
-    industry: 'SaaS',
-    street: '85 5th Ave, NY',
-    boro: 'Manhattan',
-    zip: 10003,
-    apply: 'https://boards.greenhouse.io/unqork'
-  },
-
-  {
-    rank: 11,
-    company: 'Anchor',
-    industry: 'Digital Media',
-    street: '4 World Trade Center',
-    boro: 'Manhattan',
-    zip: 10006,
-    apply: 'https://anchor.fm/jobs'
-  },
-
-  {
-    rank: 12,
-    company: 'Flexport',
-    industry: 'Logistics',
-    street: '111 West 19th St., 2nd Floor',
-    boro: 'Manhattan',
-    zip: 10011,
-    apply: 'https://www.flexport.com/careers'
-  },
-
-  {
-    rank: 13,
-    company: 'Vimeo',
-    industry: 'Streaming',
-    street: '555 W 18th St',
-    boro: 'Manhattan',
-    zip: 10011,
-    apply: 'https://vimeo.com/jobs'
-  },
-
-  {
-    rank: 14,
-    company: 'FuboTv',
-    industry: 'Streaming',
-    street: '1330 6th Ave',
-    boro: 'Manhattan',
-    zip: 10019,
-    apply: 'https://boards.greenhouse.io/fubotv'
-  },
-
-  {
-    rank: 15,
-    company: 'FlatIron Health',
-
-    industry: 'HealthTech',
-    street: '233 Spring St, 5th Floor',
-    boro: 'Manhattan',
-    zip: 10013,
-    apply: 'https://flatiron.com/careers/'
-  },
-
-  {
-    rank: 16,
-    company: 'BlueCore',
-
-    industry: 'Marketing',
-    street: '116 Nassau St',
-    boro: 'Manhattan',
-    zip: 10038,
-    apply: 'https://www.bluecore.com/careers/'
-  },
-
-  {
-    rank: 17,
-    company: 'UIPath',
-
-    industry: 'Machine Learning',
-    street: '90 Park Ave, 20th Floor',
-    boro: 'Manhattan',
-    zip: 10016,
-    apply: 'https://www.uipath.com/company/careers'
-  },
-
-  {
-    rank: 18,
-    company: 'White Ops',
-
-    industry: 'CyberSecurity',
-    street: '34th St - Penn Station',
-    boro: 'Manhattan',
-    zip: 10001,
-    apply: 'https://www.whiteops.com/jobs'
-  },
-
-  {
-    rank: 19,
-    company: 'Cockroach Labs',
-
-    industry: 'Cloud',
-    street: '53 W 23rd St',
-    boro: 'Manhattan',
-    zip: 10010,
-    apply: 'https://www.cockroachlabs.com/careers/'
-  },
-
-  {
-    rank: 20,
-    company: 'Gympass',
-
-    industry: 'Fitness',
-    street: '#',
-    street: '490 Broadway',
-    boro: 'Manhattan',
-    zip: 10012,
-    apply: 'https://www.gympass.com/us/careers'
-  },
-
-  {
-    rank: 21,
-    company: 'Simon Data',
-
-    industry: 'Machine Learning, Big Data',
-    street: '199 Water St 32nd Floor',
-    boro: 'Manhattan',
-    zip: 10038,
-    apply: 'https://www.simondata.com/careers/'
-  },
-
-  {
-    rank: 22,
-    company: 'MaestroQA',
-
-    industry: 'Cloud',
-    street: '41 E 11th St',
-    boro: 'Manhattan',
-    zip: 10003,
-    apply: 'https://angel.co/company/maestroqa/jobs'
-  },
-
-  {
-    rank: 23,
-    company: 'ComplyAdvantage',
-    industry: 'FinTech',
-    street: '9 E 38th St',
-    boro: 'Manhattan',
-    zip: 10016,
-    apply: 'https://complyadvantage.com/careers/'
-  },
-
-  {
-    rank: 24,
     company: 'HyperScience',
     industry: 'Machine Learning',
     street: '285 Fulton St, Suite 45A',
@@ -249,7 +100,196 @@ var tableData = [
   },
 
   {
+    rank: 11,
+    company: 'Asana',
+    industry: 'SaaS',
+    street: '3 World Trade Center',
+    boro: 'Manhattan',
+    zip: 10007,
+    apply: 'https://asana.com/jobs/all'
+  },
+
+  {
+    rank: 12,
+    company: 'Unqork',
+    industry: 'SaaS',
+    street: '85 5th Ave, NY',
+    boro: 'Manhattan',
+    zip: 10003,
+    apply: 'https://boards.greenhouse.io/unqork'
+  },
+
+  {
+    rank: 13,
+    company: 'Teachable',
+    industry: 'Education',
+    street: '16 W 22nd St',
+    boro: 'Manhattan',
+    zip: 10010,
+    apply: 'https://teachable.com/careers'
+  },
+
+  {
+    rank: 14,
+    company: 'Anchor',
+    industry: 'Streaming',
+    street: '4 World Trade Center',
+    boro: 'Manhattan',
+    zip: 10006,
+    apply: 'https://anchor.fm/jobs'
+  },
+  {
+    rank: 15,
+    company: 'SkillShare',
+    industry: 'EdTech',
+    street: '35 E 21st Street, 5th Floor',
+    boro: 'Manhattan',
+    zip: 10010,
+    apply: 'https://skillshare.com'
+  },
+
+  {
+    rank: 16,
+    company: 'Flexport',
+    industry: 'Logistics',
+    street: '111 West 19th St., 2nd Floor',
+    boro: 'Manhattan',
+    zip: 10011,
+    apply: 'https://www.flexport.com/careers'
+  },
+
+  {
+    rank: 17,
+    company: 'Vimeo',
+    industry: 'Streaming',
+    street: '555 W 18th St',
+    boro: 'Manhattan',
+    zip: 10011,
+    apply: 'https://vimeo.com/jobs'
+  },
+
+  {
+    rank: 18,
+    company: 'FuboTv',
+    industry: 'Streaming',
+    street: '1330 6th Ave',
+    boro: 'Manhattan',
+    zip: 10019,
+    apply: 'https://boards.greenhouse.io/fubotv'
+  },
+
+  {
+    rank: 19,
+    company: 'FlatIron Health',
+    industry: 'Health & Wellness',
+    street: '233 Spring St, 5th Floor',
+    boro: 'Manhattan',
+    zip: 10013,
+    apply: 'https://flatiron.com/careers/'
+  },
+
+  {
+    rank: 20,
+    company: 'BlueCore',
+    industry: 'Marketing',
+    street: '116 Nassau St',
+    boro: 'Manhattan',
+    zip: 10038,
+    apply: 'https://www.bluecore.com/careers/'
+  },
+
+  {
+    rank: 21,
+    company: 'UIPath',
+    industry: 'Machine Learning',
+    street: '90 Park Ave, 20th Floor',
+    boro: 'Manhattan',
+    zip: 10016,
+    apply: 'https://www.uipath.com/company/careers'
+  },
+
+  {
+    rank: 22,
+    company: 'PaxOs',
+    industry: 'Blockchain/Cryptocurrency',
+    street: '34th St - Penn Station',
+    boro: 'Manhattan',
+    zip: 10001,
+    apply: 'https://www.whiteops.com/jobs'
+  },
+
+  {
+    rank: 23,
+    company: 'White Ops',
+    industry: 'CyberSecurity',
+    street: '34th St - Penn Station',
+    boro: 'Manhattan',
+    zip: 10001,
+    apply: 'https://www.whiteops.com/jobs'
+  },
+
+  {
+    rank: 24,
+    company: 'Cockroach Labs',
+    industry: 'Big Data',
+    street: '53 W 23rd St',
+    boro: 'Manhattan',
+    zip: 10010,
+    apply: 'https://www.cockroachlabs.com/careers/'
+  },
+
+  {
     rank: 25,
+    company: 'Gympass',
+    industry: 'Health & Wellness',
+    street: '490 Broadway',
+    boro: 'Manhattan',
+    zip: 10012,
+    apply: 'https://www.gympass.com/us/careers'
+  },
+
+  {
+    rank: 26,
+    company: 'Simon Data',
+    industry: 'Big Data',
+    street: '199 Water St 32nd Floor',
+    boro: 'Manhattan',
+    zip: 10038,
+    apply: 'https://www.simondata.com/careers/'
+  },
+
+  {
+    rank: 27,
+    company: 'MaestroQA',
+    industry: 'Cloud',
+    street: '41 E 11th St',
+    boro: 'Manhattan',
+    zip: 10003,
+    apply: 'https://angel.co/company/maestroqa/jobs'
+  },
+
+  {
+    rank: 28,
+    company: 'ComplyAdvantage',
+    industry: 'FinTech',
+    street: '9 E 38th St',
+    boro: 'Manhattan',
+    zip: 10016,
+    apply: 'https://complyadvantage.com/careers/'
+  },
+
+  {
+    rank: 29,
+    company: 'Celonis',
+    industry: 'SaaS',
+    street: '114 West 41st St',
+    boro: 'Manhattan',
+    zip: 10036,
+    apply: 'https://celonis.com/careers/jobs'
+  },
+
+  {
+    rank: 30,
     company: 'Celonis',
     industry: 'SaaS',
     street: '114 W 41st St, 16th Fl',
@@ -259,7 +299,17 @@ var tableData = [
   },
 
   {
-    rank: 26,
+    rank: 31,
+    company: 'Teachers Pay Teachers',
+    industry: 'EdTech',
+    street: '111 E 18th St',
+    boro: 'Manhattan',
+    zip: 10003,
+    apply: 'https://www.teacherspayteachers.com/careers'
+  },
+
+  {
+    rank: 32,
     company: 'Greenhouse Software',
     industry: 'HR Tech',
     street: '18 West 18th Street',
@@ -269,7 +319,7 @@ var tableData = [
   },
 
   {
-    rank: 27,
+    rank: 33,
     company: 'CB Insights',
     industry: 'Big Data',
     street: '498 7th Avenue, 17th Floor',
@@ -279,9 +329,9 @@ var tableData = [
   },
 
   {
-    rank: 28,
+    rank: 34,
     company: 'Away',
-    industry: 'eCommerce, Travel',
+    industry: 'eCommerce (Travel)',
     street: '503 Broadway, 3rd Fl',
     boro: 'Manhattan',
     zip: 10012,
@@ -289,9 +339,8 @@ var tableData = [
   },
 
   {
-    rank: 29,
+    rank: 35,
     company: 'Common',
-
     industry: 'Real Estate',
     street: '335 Madison Avenue, Ste 6A',
     boro: 'Manhattan',
@@ -300,10 +349,9 @@ var tableData = [
   },
 
   {
-    rank: 30,
+    rank: 36,
     company: 'Oscar',
-
-    industry: 'HealthTech',
+    industry: 'Health & Wellness',
     street: 'One Hudson Square',
     boro: 'Manhattan',
     zip: 10014,
@@ -311,9 +359,8 @@ var tableData = [
   },
 
   {
-    rank: 31,
+    rank: 37,
     company: 'Newsela',
-
     industry: 'Education',
     street: '620 8th Ave 21st Fl',
     boro: 'Manhattan',
@@ -322,9 +369,8 @@ var tableData = [
   },
 
   {
-    rank: 32,
+    rank: 38,
     company: 'Beeswax',
-
     industry: 'Marketing',
     street: ' 275 7th Ave 21st Fl',
     boro: 'Manhattan',
@@ -333,20 +379,8 @@ var tableData = [
   },
 
   {
-    rank: 33,
-    company: 'Pond5',
-
-    industry: 'Digital Media',
-    street: '251 Park Ave South, 7th Fl',
-    boro: 'Manhattan',
-    zip: 10010,
-    apply: 'https://www.pond5.com/careers'
-  },
-
-  {
-    rank: 34,
+    rank: 39,
     company: 'Ribbon',
-
     industry: 'Real Estate',
     street: '29 E 19th St',
     boro: 'Manhattan',
@@ -355,10 +389,19 @@ var tableData = [
   },
 
   {
-    rank: 35,
-    company: 'Dashlane',
+    rank: 40,
+    company: 'Pond5',
+    industry: 'Digital Media',
+    street: '251 Park Ave South, 7th Fl',
+    boro: 'Manhattan',
+    zip: 10010,
+    apply: 'https://www.pond5.com/careers'
+  },
 
-    industry: 'SaaS',
+  {
+    rank: 41,
+    company: 'Dashlane',
+    industry: 'SaaS (Automation)',
     street: '44 W 18th St',
     boro: 'Manhattan',
     zip: 10011,
@@ -366,10 +409,9 @@ var tableData = [
   },
 
   {
-    rank: 36,
+    rank: 42,
     company: 'Resident',
-
-    industry: 'Retail: Home Decor',
+    industry: 'eCommerce (consumer goods)',
     street: '35 E 21st Street',
     boro: 'Manhattan',
     zip: 10010,
@@ -377,10 +419,19 @@ var tableData = [
   },
 
   {
-    rank: 37,
-    company: 'Bloomberg',
+    rank: 43,
+    company: 'RTB House',
+    industry: 'Machine Learning',
+    street: '135 Madison Ave, 5th Floor',
+    boro: 'Manhattan',
+    zip: 10016,
+    apply: 'https://www.rtbhouse.com/career/#!/jobs/location/all'
+  },
 
-    industry: 'FinTech',
+  {
+    rank: 44,
+    company: 'Bloomberg',
+    industry: 'SaaS (FinTech)',
     street: '731 Lexington Avenue',
     boro: 'Manhattan',
     zip: 10022,
@@ -388,20 +439,28 @@ var tableData = [
   },
 
   {
-    rank: 38,
+    rank: 45,
     company: 'Rokt',
-
-    industry: 'SaaS',
+    industry: 'Marketing',
     street: '50 W 23rd St 12th Floor',
     boro: 'Manhattan',
     zip: 10010,
-    apply: 'https://rokt.com/careers/'
+    apply: 'https://www.rokt.com/careers/'
   },
 
   {
-    rank: 39,
-    company: 'Stash',
+    rank: 46,
+    company: 'Yext',
+    industry: 'Marketing',
+    street: '1 Madison Avenue, 5th Floor',
+    boro: 'Manhattan',
+    zip: 10010,
+    apply: 'https://www.yext.com/careers/'
+  },
 
+  {
+    rank: 47,
+    company: 'Stash',
     industry: 'FinTech',
     street: '500 7th Ave 18th Floor',
     boro: 'Manhattan',
@@ -410,9 +469,8 @@ var tableData = [
   },
 
   {
-    rank: 40,
+    rank: 48,
     company: 'Riskfield',
-
     industry: 'FinTech',
     street: '220 5th Ave #13th Floor',
     boro: 'Manhattan',
@@ -421,10 +479,19 @@ var tableData = [
   },
 
   {
-    rank: 41,
-    company: 'Rent The Runway',
+    rank: 49,
+    company: 'Domio',
+    industry: 'Real Estate',
+    street: '91 5th Ave',
+    boro: 'Manhattan',
+    zip: 10003,
+    apply: 'https://boards.greenhouse.io/renttherunway'
+  },
 
-    industry: 'Marketing',
+  {
+    rank: 50,
+    company: 'Rent The Runway',
+    industry: 'eCommerce',
     street: '345 Hudson Street',
     boro: 'Manhattan',
     zip: 10014,
@@ -432,20 +499,9 @@ var tableData = [
   },
 
   {
-    rank: 42,
-    company: 'YotPo',
-    industry: 'FinTech',
-    street: '33 West 19th Street',
-    boro: 'Manhattan',
-    zip: 10011,
-    apply: 'https://www.yotpo.com/jobs/'
-  },
-
-  {
-    rank: 43,
+    rank: 51,
     company: 'UnaCast',
-
-    industry: 'FinTech, Machine Learning',
+    industry: 'Big Data',
     street: '245 5th Ave',
     boro: 'Manhattan',
     zip: 10016,
@@ -453,10 +509,19 @@ var tableData = [
   },
 
   {
-    rank: 44,
-    company: 'Knotch',
+    rank: 52,
+    company: 'YotPo',
+    industry: 'eCommerce',
+    street: '33 West 19th Street',
+    boro: 'Manhattan',
+    zip: 10011,
+    apply: 'https://www.yotpo.com/jobs/'
+  },
 
-    industry: 'HealthTech',
+  {
+    rank: 53,
+    company: 'Knotch',
+    industry: 'Big Data',
     street: '52 Walker St',
     boro: 'Manhattan',
     zip: 10013,
@@ -464,10 +529,9 @@ var tableData = [
   },
 
   {
-    rank: 45,
+    rank: 54,
     company: 'PaperSpace',
-
-    industry: 'Machine Learning',
+    industry: 'Artificial Intelligence',
     street: '201 Moore St',
     boro: 'Brooklyn',
     zip: 11206,
@@ -475,10 +539,9 @@ var tableData = [
   },
 
   {
-    rank: 46,
+    rank: 55,
     company: 'Policy Genius',
-
-    industry: 'eCommerce, Marketing',
+    industry: 'Insurance',
     street: '50 W 23rd St 9th fl',
     boro: 'Manhattan',
     zip: 10010,
@@ -486,10 +549,9 @@ var tableData = [
   },
 
   {
-    rank: 47,
+    rank: 56,
     company: 'Neverware',
-
-    industry: 'BigData',
+    industry: 'SaaS',
     street: '112 West 27th St., Suite 200',
     boro: 'Manhattan',
     zip: 10001,
@@ -497,9 +559,8 @@ var tableData = [
   },
 
   {
-    rank: 48,
+    rank: 57,
     company: 'Noom',
-
     industry: 'Health & Wellness',
     street: '229 W 28th St 9th floor',
     boro: 'Manhattan',
@@ -509,21 +570,9 @@ var tableData = [
   },
 
   {
-    rank: 49,
-    company: 'Blink Health',
-
-    industry: 'HealthTech',
-    street: '233 Spring St, 8th Floor East',
-    boro: 'Manhattan',
-    zip: 10013,
-    apply: 'https://www.blinkhealth.com/careers'
-  },
-
-  {
-    rank: 50,
+    rank: 58,
     company: 'Knotel',
-
-    industry: 'SaaS',
+    industry: 'Real Estate',
     street: '655 Madison Ave #12',
     boro: 'Manhattan',
     zip: 10065,
@@ -531,10 +580,19 @@ var tableData = [
   },
 
   {
-    rank: 51,
-    company: 'Metric Digital',
+    rank: 59,
+    company: 'Blink Health',
+    industry: 'Health & Wellness',
+    street: '233 Spring St, 8th Floor East',
+    boro: 'Manhattan',
+    zip: 10013,
+    apply: 'https://www.blinkhealth.com/careers'
+  },
 
-    industry: 'eCommerce',
+  {
+    rank: 60,
+    company: 'Metric Digital',
+    industry: 'Marketing',
     street: '394 Broadway Fl 5',
     boro: 'Manhattan',
     zip: 10013,
@@ -542,10 +600,9 @@ var tableData = [
   },
 
   {
-    rank: 52,
+    rank: 61,
     company: 'Deloitte Digital',
-
-    industry: 'SaaS',
+    industry: 'UX Consulting',
     street: '330 Hudson St',
     boro: 'Manhattan',
     zip: 10013,
@@ -553,10 +610,9 @@ var tableData = [
   },
 
   {
-    rank: 53,
+    rank: 62,
     company: 'AirCall',
-
-    industry: 'SaaS',
+    industry: 'VoiP',
     street: '233 Park Ave S',
     boro: 'Manhattan',
     zip: 10003,
@@ -564,19 +620,8 @@ var tableData = [
   },
 
   {
-    rank: 54,
-    company: 'WeWork Technology',
-    industry: 'Cloud, VOIP',
-    street: '115 W 18th St',
-    boro: 'Manhattan',
-    zip: 10011,
-    apply: 'https://boards.greenhouse.io/weworkglobalit/'
-  },
-
-  {
-    rank: 55,
+    rank: 63,
     company: 'T-Rex',
-
     industry: 'Co-Working Space',
     street: '214 W 29th St',
     boro: 'Manhattan',
@@ -585,20 +630,8 @@ var tableData = [
   },
 
   {
-    rank: 56,
-    company: 'JustWorks',
-
-    industry: 'HR Tech',
-    street: '601 W 26th St',
-    boro: 'Manhattan',
-    zip: 10001,
-    apply: 'https://justworks.com/careers'
-  },
-
-  {
-    rank: 57,
+    rank: 64,
     company: 'Collibra',
-
     industry: 'HR Tech',
     street: '61 Broadway, 31st Floor',
     boro: 'Manhattan',
@@ -607,9 +640,8 @@ var tableData = [
   },
 
   {
-    rank: 58,
+    rank: 65,
     company: 'Ellevest',
-
     industry: 'Investing',
     street: '48 W 25th St 6th floor',
     boro: 'Manhattan',
@@ -618,7 +650,7 @@ var tableData = [
   },
 
   {
-    rank: 59,
+    rank: 66,
     company: 'Fundera',
     industry: 'FinTech',
     street: '123 William St',
@@ -628,7 +660,7 @@ var tableData = [
   },
 
   {
-    rank: 60,
+    rank: 67,
     company: 'Meetup',
     industry: 'Social Networking',
     street: '632 Broadway #10',
@@ -638,7 +670,7 @@ var tableData = [
   },
 
   {
-    rank: 61,
+    rank: 68,
     company: 'Better Mortgage Corp',
     industry: 'FinTech',
     street: '250 Greenwich St Fl. 36',
@@ -648,7 +680,7 @@ var tableData = [
   },
 
   {
-    rank: 62,
+    rank: 69,
     company: 'Movable Ink',
     industry: 'Marketing',
     street: '5 Bryant Park, 9th Floor',
@@ -658,7 +690,17 @@ var tableData = [
   },
 
   {
-    rank: 63,
+    rank: 70,
+    company: 'JustWorks',
+    industry: 'HR Tech',
+    street: '601 W 26th St',
+    boro: 'Manhattan',
+    zip: 10001,
+    apply: 'https://justworks.com/careers'
+  },
+
+  {
+    rank: 71,
     company: 'The Trade Desk',
     industry: 'Marketing',
     street: '2 Park Ave 5th Floor',
@@ -668,107 +710,7 @@ var tableData = [
   },
 
   {
-    rank: 64,
-    company: 'Lifion By ADP',
-    industry: 'HR Tech',
-    street: '2 Park Ave, 5th Floor',
-    boro: 'Manhattan',
-    zip: 10016,
-    apply: 'https://lifion.com/careers#jobs'
-  },
-
-  {
-    rank: 65,
-    company: 'SquareSpace',
-    industry: 'SaaS',
-    street: '225 Varick Street',
-    boro: 'Manhattan',
-    zip: 10014,
-    apply: 'https://www.squarespace.com/about/careers'
-  },
-
-  {
-    rank: 66,
-    company: "Harry's",
-    industry: 'Retail',
-    street: '75 Varick Street',
-    boro: 'Manhattan',
-    zip: 10013,
-    apply: 'https://www.harrys.com/en/us/careers'
-  },
-
-  {
-    rank: 67,
-    company: 'Integral Ad Science',
-    industry: 'Retail',
-    street: '95 Morton St',
-    boro: 'Manhattan',
-    zip: '10014',
-    apply: 'https://integralads.com/careers/'
-  },
-
-  {
-    rank: 68,
-    company: 'Peloton',
-    industry: 'AdTech',
-    street: '125 W 25th St',
-    boro: 'Manhattan',
-    zip: '10001',
-    apply: 'https://www.onepeloton.com/careers'
-  },
-
-  {
-    rank: 69,
-    company: 'CB4',
-    industry: 'SaaS',
-    street: '311 W43rd St',
-    boro: 'Manhattan',
-    zip: 10036,
-    apply: 'https://cb4.com/careers/'
-  },
-
-  {
-    rank: 70,
-    company: 'GrubHub',
-    industry: 'Food Delivery',
-    street: '1065 6th Ave',
-    boro: 'Manhattan',
-    zip: '10018',
-    apply: 'https://careers-grubhub.icims.com/jobs/'
-  },
-
-  {
-    rank: 71,
-    company: 'Button',
-    industry: 'SaaS',
-    street: '88 Pine St',
-    boro: 'Manhattan',
-    zip: 10005,
-    apply: 'https://www.usebutton.com/company/careers'
-  },
-
-  {
     rank: 72,
-    company: 'SoCure',
-    industry: 'SaaS',
-    street: '330 7th Ave, Suite 201',
-    boro: 'Manhattan',
-    zip: 10001,
-    apply: 'https://www.socure.com/about/careers'
-  },
-
-  {
-    rank: 73,
-    company: 'Conductor',
-    industry: 'Marketing',
-    street: '2 Park Ave, 15th Fl',
-    boro: 'Manhattan',
-    zip: 10016,
-    apply: 'https://www.conductor.com/careers/'
-  },
-
-  {
-    rank: 74,
     company: 'Namely',
     industry: 'HR Tech',
     street: '195 Broadway',
@@ -778,7 +720,127 @@ var tableData = [
   },
 
   {
+    rank: 73,
+    company: 'WeWork Technology',
+    industry: 'Cloud, VOIP',
+    street: '115 W 18th St',
+    boro: 'Manhattan',
+    zip: 10011,
+    apply: 'https://boards.greenhouse.io/weworkglobalit/'
+  },
+
+  {
+    rank: 74,
+    company: 'Lifion By ADP',
+    industry: 'HR Tech',
+    street: '2 Park Ave, 5th Floor',
+    boro: 'Manhattan',
+    zip: 10016,
+    apply: 'https://lifion.com/careers#jobs'
+  },
+
+  {
     rank: 75,
+    company: "Harry's",
+    industry: 'Retail',
+    street: '75 Varick Street',
+    boro: 'Manhattan',
+    zip: 10013,
+    apply: 'https://www.harrys.com/en/us/careers'
+  },
+
+  {
+    rank: 76,
+    company: 'Integral Ad Science',
+    industry: 'SaaS (Digital Verification)',
+    street: '95 Morton St',
+    boro: 'Manhattan',
+    zip: '10014',
+    apply: 'https://integralads.com/careers/'
+  },
+
+  {
+    rank: 77,
+    company: 'Peloton',
+    industry: 'Health & Wellness',
+    street: '125 W 25th St',
+    boro: 'Manhattan',
+    zip: '10001',
+    apply: 'https://www.onepeloton.com/careers'
+  },
+
+  {
+    rank: 78,
+    company: 'SquareSpace',
+    industry: 'SaaS (DIY Websites)',
+    street: '225 Varick Street',
+    boro: 'Manhattan',
+    zip: 10014,
+    apply: 'https://www.squarespace.com/about/careers'
+  },
+
+  {
+    rank: 79,
+    company: 'CB4',
+    industry: 'SaaS (POS)',
+    street: '311 W43rd St',
+    boro: 'Manhattan',
+    zip: 10036,
+    apply: 'https://cb4.com/careers/'
+  },
+
+  {
+    rank: 80,
+    company: 'AniMoto',
+    industry: 'SaaS (Video Editing)',
+    street: '436 Lafayette St',
+    boro: 'Manhattan',
+    zip: 10003,
+    apply: 'https://animoto.com/about'
+  },
+
+  {
+    rank: 81,
+    company: 'GrubHub',
+    industry: 'Food Delivery',
+    street: '1065 6th Ave',
+    boro: 'Manhattan',
+    zip: '10018',
+    apply: 'https://careers-grubhub.icims.com/jobs/'
+  },
+
+  {
+    rank: 82,
+    company: 'Button',
+    industry: 'eCommerce',
+    street: '88 Pine St',
+    boro: 'Manhattan',
+    zip: 10005,
+    apply: 'https://www.usebutton.com/company/careers'
+  },
+
+  {
+    rank: 83,
+    company: 'SoCure',
+    industry: 'FinTech',
+    street: '330 7th Ave, Suite 201',
+    boro: 'Manhattan',
+    zip: 10001,
+    apply: 'https://www.socure.com/about/careers'
+  },
+
+  {
+    rank: 84,
+    company: 'Conductor',
+    industry: 'Marketing',
+    street: '2 Park Ave, 15th Fl',
+    boro: 'Manhattan',
+    zip: 10016,
+    apply: 'https://www.conductor.com/careers/'
+  },
+
+  {
+    rank: 85,
     company: 'Shapeways',
     industry: '3D Printing',
     street: '44 W 28th St',
@@ -788,17 +850,27 @@ var tableData = [
   },
 
   {
-    rank: 76,
-    company: 'OnDeck',
-    industry: 'FinTech',
-    street: '1400 Broadway',
-    boro: 'Queens',
-    zip: 10018,
-    apply: 'https://www.shapeways.com/jobs/new-york'
+    rank: 86,
+    company: 'Latch',
+    industry: 'IoT (Home Security)',
+    street: '450 West 33rd Street',
+    boro: 'Manhattan',
+    zip: 10001,
+    apply: 'https://www.latch.com/careers'
   },
 
   {
-    rank: 77,
+    rank: 87,
+    company: 'OnDeck',
+    industry: 'FinTech',
+    street: '1400 Broadway (42nd Street Bryant Park)',
+    boro: 'Manhattan',
+    zip: 10018,
+    apply: 'https://www.ondeck.com/careers'
+  },
+
+  {
+    rank: 88,
     company: 'TransFix',
     industry: 'Logistics',
     street: '498 7th Ave',
@@ -808,7 +880,7 @@ var tableData = [
   },
 
   {
-    rank: 78,
+    rank: 89,
     company: 'CreatorIQ',
     industry: 'Cloud',
     street: '1400 Broadway',
@@ -818,9 +890,9 @@ var tableData = [
   },
 
   {
-    rank: 79,
+    rank: 90,
     company: 'Healthify',
-    industry: 'Logistics, SaaS',
+    industry: 'Health & Wellness',
     street: '498 7th Avenue',
     boro: 'Manhattan',
     zip: 10018,
@@ -828,9 +900,9 @@ var tableData = [
   },
 
   {
-    rank: 80,
+    rank: 91,
     company: 'Native',
-    industry: 'Big Data',
+    industry: 'Big Data (Consumer Research)',
     street: '524 Broadway',
     boro: 'Manhattan',
     zip: 10012,
@@ -838,7 +910,7 @@ var tableData = [
   },
 
   {
-    rank: 81,
+    rank: 92,
     company: 'WarnerMedia',
     industry: 'Media',
     street: '40 Hudson Yards',
@@ -848,7 +920,7 @@ var tableData = [
   },
 
   {
-    rank: 82,
+    rank: 93,
     company: 'Myridad360',
     industry: 'SaaS',
     street: '199 Water Street',
@@ -858,7 +930,7 @@ var tableData = [
   },
 
   {
-    rank: 83,
+    rank: 94,
     company: 'Spotify',
     industry: 'Streaming',
     street: '40 Hudson Yards',
@@ -868,7 +940,7 @@ var tableData = [
   },
 
   {
-    rank: 84,
+    rank: 95,
     company: 'Perch',
     industry: 'Real Estate',
     street: '31 West 27th St',
@@ -878,7 +950,7 @@ var tableData = [
   },
 
   {
-    rank: 85,
+    rank: 96,
     company: 'WW: Weight Watchers',
     industry: 'Health & Wellness',
     street: '675 6th Ave',
@@ -888,7 +960,7 @@ var tableData = [
   },
 
   {
-    rank: 86,
+    rank: 97,
     company: 'Hinge',
     industry: 'Social Networking',
     street: '508 LaGuardia Pl',
@@ -898,7 +970,7 @@ var tableData = [
   },
 
   {
-    rank: 87,
+    rank: 98,
     company: 'Care/Of',
     industry: 'Health & Wellness',
     street: '75 Varick St',
@@ -908,9 +980,9 @@ var tableData = [
   },
 
   {
-    rank: 88,
+    rank: 99,
     company: 'Paxful',
-    industry: 'Social',
+    industry: 'Blockchain/Cryptocurrency',
     street: '609 Greenwich St',
     boro: 'Manhattan',
     zip: 10014,
@@ -918,7 +990,7 @@ var tableData = [
   },
 
   {
-    rank: 89,
+    rank: 100,
     company: 'NewsCred',
     industry: 'Marketing',
     street: '386 Park Ave S. 6th Fl',
@@ -928,7 +1000,7 @@ var tableData = [
   },
 
   {
-    rank: 90,
+    rank: 101,
     company: 'Anvyl',
     industry: 'Logistics',
     street: '335 Madison Ave',
@@ -938,17 +1010,7 @@ var tableData = [
   },
 
   {
-    rank: 91,
-    company: 'AniMoto',
-    industry: 'Streaming',
-    street: '436 Lafayette St',
-    boro: 'Manhattan',
-    zip: 10003,
-    apply: 'https://animoto.com/about'
-  },
-
-  {
-    rank: 92,
+    rank: 102,
     company: 'Grailed',
     industry: 'eCommerce',
     street: '131 Spring Street',
@@ -958,7 +1020,7 @@ var tableData = [
   },
 
   {
-    rank: 93,
+    rank: 103,
     company: 'LeafLink',
     industry: 'Cannabis',
     street: '80 Broad St',
@@ -968,7 +1030,7 @@ var tableData = [
   },
 
   {
-    rank: 94,
+    rank: 104,
     company: 'StrideConsulting',
     industry: 'Digital Media',
     street: '127 W 26th St',
@@ -978,7 +1040,7 @@ var tableData = [
   },
 
   {
-    rank: 95,
+    rank: 105,
     company: 'Seven Rooms',
     industry: 'SaaS (Hospitality)',
     street: '122 W 27th St',
@@ -988,7 +1050,7 @@ var tableData = [
   },
 
   {
-    rank: 96,
+    rank: 106,
     company: 'Citadel',
     industry: 'FinTech',
     street: '601 Lexington Avenue',
@@ -998,7 +1060,7 @@ var tableData = [
   },
 
   {
-    rank: 97,
+    rank: 107,
     company: 'Workstride',
     industry: 'SaaS',
     street: '350 5th Avenue Suite 3920',
@@ -1008,7 +1070,7 @@ var tableData = [
   },
 
   {
-    rank: 98,
+    rank: 108,
     company: 'ThoughtBot',
     industry: 'Web Development',
     street: '1384 Broadway',
@@ -1018,7 +1080,7 @@ var tableData = [
   },
 
   {
-    rank: 99,
+    rank: 109,
     company: 'Compass',
     industry: 'Real Estate',
     street: '90 Fifth Avenue, 3rd Floor',
@@ -1028,7 +1090,7 @@ var tableData = [
   },
 
   {
-    rank: 100,
+    rank: 110,
     company: 'CaseBook PBC',
     industry: 'Machine Learning',
     street: '104 W 27th St',
