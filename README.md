@@ -1,4 +1,4 @@
-# 100-tech-companies
+# Summary
 
 Built with tabulator.js, this is a static responsive table listing over 100 NYC tech companies employing software engineers, UX designers, data scientists, and more.
 
