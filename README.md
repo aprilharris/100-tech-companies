@@ -1,10 +1,10 @@
 # 100-tech-companies
-A table listing NYC tech companies built with Tabulator.js
 
-A static responsive table listing over 100 NYC tech companies employing software engineers, UX designers, data scientists, and more.
+Built with tabulator.js, this is a static responsive table listing over 100 NYC tech companies employing software engineers, UX designers, data scientists, and more.
 
-Based on builtinnyc.com's 100 Best Places to Work in NYC, a dynamic algorithm-generated list of tech firms.
+This site was built using [GitHub Pages](https://pages.github.com/).
 
-Read up on their ranking methodology <a href="#">here</a>. 
+Based on builtinnyc.com's [100 Best Places to Work in NYC](https://www.builtinnyc.com/companies/best-places-to-work-nyc), a dynamic algorithm-generated list of tech firms.
+
 
 ![Preview Image of https://aprilharris.github.io/100-tech-companies/](preview.png)
