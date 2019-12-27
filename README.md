@@ -4,4 +4,4 @@ Sourcing data from from builtinnyc.com's [100 Best Places to Work in NYC](https:
 
 This project uses <a href="http://tabulator.info/">tabulator.js</a>, a light-weight JavaScript table-generation library.
 
-<a href="https://aprilharris.github.io/100-tech-companies/"><img src="preview.png"></a>
+<a href="https://aprilharris.github.io/100-tech-companies/" target="_blank" rel="noopener noreferrer"><img src="preview.png"></a>
