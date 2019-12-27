@@ -2,8 +2,6 @@
 
 Built with tabulator.js, this is a static responsive table listing over 100 NYC tech companies employing software engineers, UX designers, data scientists, and more.
 
-This site was built using [GitHub Pages](https://pages.github.com/).
-
 Based on builtinnyc.com's [100 Best Places to Work in NYC](https://www.builtinnyc.com/companies/best-places-to-work-nyc), a dynamic algorithm-generated list of tech firms.
 
 
